@@ -1,0 +1,37 @@
+#Example
+Example:
+  gui-title: 'Example Title'
+  rows: 1 #must be within 1-6
+  slots:
+    1:
+      material: 'SUNFLOWER'
+      name: '&6&lShop'
+      amount: 1
+      lore:
+        - '&7Super cheap shop'
+        - '&7&n20%&7 sale on all items!'
+      glow: true
+      commands: #commands are ran by the console use <player> to get the player's name
+        - 'msg <player> good shop'
+      messages: #messages are sent to the player who clicked the item
+        - '&aEnjoy the shop'
+    5:
+      material: 'BARRIER'
+      name: '&4&lA Cool Barrier'
+      amount: 1
+      lore:
+        - '&dWhatever you do dont touch the barrier'
+      glow: true
+      messages:
+        - '&cDont touch me im too cool for you.'
+    9:
+      material: 'PAPER'
+      name: '&5&lQuests'
+      amount: 1
+      lore:
+        - '&7Fun cool and fun quests that are fun'
+      glow: true
+      commands:
+        - 'msg <player> quests!'
+      messages:
+        - '&cThe quests are currently unavailable.'

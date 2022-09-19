@@ -1,0 +1,13 @@
+name: SimpleGUIs
+version: '${project.version}'
+main: dev.splityosis.simplegui.Main
+api-version: 1.18
+authors: [ SplitYoSis ]
+description: Simple GUI
+
+commands:
+  simplegui:
+    aliases:
+      - sg
+      - simpleguis
+    description: Plugin's main command
